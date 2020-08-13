@@ -1,11 +1,12 @@
 my-image{
   width: 300px;
   height:auto;
-  margin: 25px;
+  margin: 50px;
 }
 
 .covid-img{
   @extend my-image; //inherited
+
   border: 5px solid $back-color;
 }
 

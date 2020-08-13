@@ -12,17 +12,23 @@ body{
   // background: $back-color;
   // color : $color;
 }
-
+h1{
+  margin:$margin * 2 ;
+}
 button {
   @include dimension(100px, 50px, 3px);
   // @extend myColors;
   @extend universalColor;
+  margin:10px 50px;
+
 }
 
 // $color comes from variables
 p {
   @include myPara(50%,$color);
-  margin:$margin / 2;
+  margin:25px $margin*2; //operators * for multiplication, / for division
+  // margin : 100/4;
+  //margin: $margin-1+5;
 }
 
 //inheritance

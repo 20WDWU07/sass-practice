@@ -1,4 +1,6 @@
-// css way of styling
+//---------------------
+// css way
+//---------------------
 // nav{
 //   background: $back-color;
 //   height: 100px;
@@ -23,18 +25,22 @@
 //   color: black;
 // }
 
+
+
+//---------------------
 // sass nesting
+//---------------------
 nav
 {
-  background: $back-color;
-  height: 100px;
+  // background: $back-color;
+  height: 50px;
   ul{
-    margin:40px auto;
-    border:1px solid red;
-    height: 40px;
-    padding:40px;
+    // margin:40px auto;
+    // border:1px solid red;
+    height: 50px;
+    padding:20px;
     li{
-      padding: 10px;
+      // padding: 10px;
       list-style: none;
       display:inline;
       margin: 40px 5%;
