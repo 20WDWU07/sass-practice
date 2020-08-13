@@ -1,0 +1,47 @@
+my-image, .covid-img {
+  width: 300px;
+  height: auto;
+  margin: 25px; }
+
+.covid-img {
+  border: 5px solid lightgreen; }
+
+.covid-img:hover {
+  padding: 20px; }
+
+nav {
+  background: lightgreen;
+  height: 100px; }
+  nav ul {
+    margin: 40px auto;
+    border: 1px solid red;
+    height: 40px;
+    padding: 40px; }
+    nav ul li {
+      padding: 10px;
+      list-style: none;
+      display: inline;
+      margin: 40px 5%;
+      background: white; }
+      nav ul li a:link {
+        color: black; }
+
+button {
+  width: 100px;
+  height: 50px;
+  letter-spacing: 3px; }
+
+p {
+  width: 50%;
+  color: maroon;
+  margin: 25px; }
+
+myColors {
+  background: lightgreen;
+  color: maroon; }
+
+universalColor, button {
+  background: lightblue;
+  color: blue; }
+
+/*# sourceMappingURL=style.css.map */
